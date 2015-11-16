@@ -1,0 +1,9 @@
+# Error: Already exists (68), additional info: failed to add entry ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=realmconfiguration,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# RealmConfiguration, openthinclient, openthinclient.org
+dn: ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+ufn: RealmConfiguration, openthinclient, openthinclient.org
+ou: RealmConfiguration
+description: openthinclient Pales
+objectClass: organizationalUnit
+objectClass: top
+

@@ -1,0 +1,9 @@
+# Error: Undefined attribute type (17), additional info: failed to add entry ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: ufn not found in attribute registry!
+# RealmConfiguration, openthinclient, openthinclient.org
+dn: ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+ufn: RealmConfiguration, openthinclient, openthinclient.org
+ou: RealmConfiguration
+objectClass: organizationalUnit
+objectClass: top
+description: openthinclient Pales
+

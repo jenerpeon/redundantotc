@@ -1,0 +1,12 @@
+ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org
+ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+ou=clientgroups,ou=openthinclient,dc=openthinclient,dc=org
+ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+ou=printers,ou=openthinclient,dc=openthinclient,dc=org
+ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+ou=unrecognized-clients,ou=openthinclient,dc=openthinclient,dc=org
+ou=usergroups,ou=openthinclient,dc=openthinclient,dc=org
+ou=users,ou=openthinclient,dc=openthinclient,dc=org

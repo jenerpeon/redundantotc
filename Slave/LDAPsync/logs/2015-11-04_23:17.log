@@ -1,0 +1,8 @@
+# Error: Already exists (68), additional info: failed to add entry ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# openthinclient, openthinclient.org
+dn: ou=openthinclient,dc=openthinclient,dc=org
+ou: openthinclient
+description: openthinclient.org Console
+objectClass: organizationalUnit
+objectClass: top
+
