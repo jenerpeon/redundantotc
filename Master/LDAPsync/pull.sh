@@ -1,15 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# Regular Colors
-Black='\033[0;30m'        # Black
-Red='\033[0;31m'          # Red
-Green='\033[0;32m'        # Green
-Yellow='\033[0;33m'       # Yellow
-Blue='\033[0;34m'         # Blue
-Purple='\033[0;35m'       # Purple
-Cyan='\033[0;36m'         # Cyan
-White='\033[0;37m'        # White
-NC='\033[0m'
+## BOOTSTRAP ##
+source "$( cd "${BASH_SOURCE[0]%/*}" && pwd )/lib/oo-framework.sh"
+
+import lib/type-core
+import lib/system/00_log
+import lib/lars/logger
+import lib/lars/check
+import lib/lars/test_con
 
 SRC=${SRC-10.224.129.216}
 HOST_USER="root"
@@ -30,75 +28,8 @@ SSH_SRC=$HOST_USER'@'$SRC
 TODAYS_DATA=$(echo ${SRC_DIR}/backup/$(date +%F))
 
 # Parameters
-key="$1"
 MD5_HOST=""
 LOCK=${SRC_DIR}/Lock
-
-myLogger () {
-local head='%-10s%-30s%-30s'
-    case $1 in
-    1)
-        head="${head}${Red}%8s${NC}\n"
-        printf $head "ERROR:" "func: $2" "expr: $3" "[failed]"
-        shift
-        ;;
-    2)
-        head="${head}${Yellow}%8s${NC}\n"
-        printf $head "WARNING:" "func: $2" "expr: $3" "[warn]"
-        shift
-        ;;
-    3)
-        head="${head}${Yellow}%8s${NC}\n"
-        printf $head "INFO:" "func: $2" "expr: $3" "[debug]"
-        shift
-        ;;
-    4)
-        head="${head}${Green}%8s${NC}\n"
-        printf $head "OK:" "func: $2" "expr: $3" "[OK]"
-        shift
-        ;;
-    *)
-        printf "log level not defined"
-    ;;
-    esac
-}
-
-check () {
-   case $1 in
-   -f)
-     [ $2 -ne 0 ] && myLogger "1" "$3" "$4"
-     myLogger "4" "$3" "$4"
-     shift
-     ;;
-   -e)
-     [ ! -e $2 ] && myLogger "1" "$3" "$4" \
-     || myLogger "4" "$3" "$4"
-     shift
-     ;;  
-   --enc)
-     [ ! -e $2 ] && myLogger "2" "$3" "$4" \
-     || myLogger "4" "$3" "$4"
-     shift
-     ;;
-   *)     
-     printf "not implementet yet\n"
-     ;; 
-   esac
-} 
-
-test_con () {
-  for run in {1 .. 5} 
-  do
-    if ping -q -c 1 -W 1 $TARGET >/dev/null; then
-      myLogger "4" "test_con" "connection"
-      break
-    else
-      myLogger "2" "test_con" "try $run"
-    fi;
-      myLogger "1" "test_con" "connection"
-      exit 1
-  done
-}
 
 init() {
   check --enc ${LOCK} "init" "lookup LOCK" "rm ${LOCK}"
@@ -155,24 +86,27 @@ ldap_push () {
      myLogger "3" "ldap_push" "unlocked" 
 } 
 
-case $key in 
-    -h|--help)
-        echo -e "synopsis: sync.sh File [option]"  
-        echo -e "\t-d or --daily \t\t stores a daily ldap dump from Master, syncs ldap and system folders with slave"
-        shift
-    ;;
-    -d|--daily)
-        init
-        test_con
-        ldap_retrieve
-        ldap_send
-        ldap_push
-        sync_sfs
-        check_remote
-        shift
-    ;;
-    *)
-    echo "parameter not known. -h | --help for manual"
-    ;;
-esac
+while [[ $# > 1 ]]
+do
+   key="$1"
+   case $key in 
+       -h|--help)
+           echo -e "synopsis: sync.sh file [option]"  
+           echo -e "\t-d or --daily \t\t stores a daily ldap dump from master, syncs ldap and system folders with slave"
+           shift
+       ;;
+       -d|--daily)
+           init
+           test_con $TARGET
+           ldap_retrieve
+           ldap_send
+           ldap_push
+           sync_sfs
+           check_remote
+           shift
+       ;;
+       *)
+       echo "parameter not known. -h | --help for manual"
+       ;;
+   esac
 

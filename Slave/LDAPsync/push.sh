@@ -1,72 +1,23 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# Regular Colors
-Black='\033[0;30m'        # Black
-Red='\033[0;31m'          # Red
-Green='\033[0;32m'        # Green
-Yellow='\033[0;33m'       # Yellow
-Blue='\033[0;34m'         # Blue
-Purple='\033[0;35m'       # Purple
-Cyan='\033[0;36m'         # Cyan
-White='\033[0;37m'        # White
-NC='\033[0m'
+## BOOTSTRAP ##
+source "$( cd "${BASH_SOURCE[0]%/*}" && pwd )/lib/oo-framework.sh"
 
-DIR:="/opt/LDAPsync/"
-TRANSACTIONS=${DIR}"/transactions.txt"
-#MASTER="10.224.129.216"
-#SLAVE="10.224.129.66"
-MASTER_HOST="root"
-SLAVE:=10.224.129.216
-MASTER:=10.224.129.66
-TODAYS_ARCHIVE=$(tail -n1 ${TRANSACTIONS})
-MD5_SLAVE=""
-key="$1"
+## MAIN ##
 
-myLogger () {
-local head='%-10s%-30s%-30s'
-    case $1 in
-    1)
-        head="${head}${Red}%8s${NC}\n"
-        printf $head "ERROR:" "func: $2" "expr: $3" "[failed]"
-        shift
-        ;;
-    2)
-        head="${head}${Yellow}%8s${NC}\n"
-        printf $head "WARNING:" "func: $2" "expr: $3" "[warn]"
-        shift
-        ;;
-    3)
-        head="${head}${Yellow}%8s${NC}\n"
-        printf $head "INFO:" "func: $2" "expr: $3" "[debug]"
-        shift
-        ;;
-    4)
-        head="${head}${Green}%8s${NC}\n"
-        printf $head "OK:" "func: $2" "expr: $3" "[OK]"
-        shift
-        ;;
-    *)
-        printf "log level not defined"
-    ;;
-    esac
-}
-check () {
-   case $1 in
-   -f)
-     [ $2 -ne 0 ] && myLogger "1" "$3" "$4" \
-     || myLogger "4" "$3" "$4" 
-     shift
-   ;;
-   -e)
-     [ ! -e $2 ] && myLogger "1" "$3" "$4" \
-     || myLogger "4" "$3" "$4"
-     shift
-     ;;
-   *)
-     printf "not implementet yet\n"
-     ;;
-   esac
-}
+#import steffenhoenig/crash/modules/example
+#import steffenhoenigiaeae/crash/modules/example
+import lib/type-core
+import lib/system/00_log
+import lib/lars/logger
+import lib/lars/check
+#import lib/types/base
+#import lib/types/ui
+## YOUR CODE GOES HERE ##
+#for f in ${__oo__importedFiles[@]}; do
+#  echo $f
+#done
+#hello "bash-oo"
 
 
 unpack () {
