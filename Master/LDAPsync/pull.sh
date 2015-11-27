@@ -1,4 +1,31 @@
 #!/bin/bash
+# Master
+# Variable definitions
+MASTER=os-master
+SLAVE=os-slave
+
+MASTER_USER="root"
+SLAVE_USER="root"
+
+# Location of storage definition
+MASTER_DIR="/opt/Master/LDAPsync"
+MASTER_OTC_DIR="/opt/openthinclient/server/default/data/nfs/root/"
+MASTER_OTC_META=$(echo ${MASTER_OTC_DIR}{tftp/,sfs/,schema/})
+
+# Location of Slaves sync Folder
+SLAVE_DIR="/opt/Slave/LDAPsync"
+
+# SSH configurations
+SSH_SLAVE=$SLAVE_USER'@'$SLAVE
+SSH_MASTER=$MASTER_USER'@'MASTER$
+TODAYS_DATE=$(echo $(date +%F))
+TODAYS_DATA=$(echo ${MASTER_DIR}/backup/$(date +%F))
+SLAVE_TODAYS_DATA=$(echo ${SLAVE_DIR}/backup/$(date +%F))
+
+# Parameters
+key="$1"
+MD5_HOST=""
+LOCK=${MASTER_DIR}/Lock
 
 # Regular Colors
 Black='\033[0;30m'        # Black
@@ -10,29 +37,6 @@ Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 White='\033[0;37m'        # White
 NC='\033[0m'
-
-SRC=${SRC-10.224.129.216}
-HOST_USER="root"
-TARGET="10.224.129.66"
-TARGET_USER="root"
-
-# Location of storage definition
-SRC_DIR="/root/LDAPsync"
-SRC_OTC_DIR="/opt/openthinclient/server/default/data/nfs/root/"
-SRC_OTC_META=$(echo ${SRC_OTC_DIR}{tftp/,sfs/,schema/})
-TARGET_DIR="/root/LDAPsync"
-
-
-# SSH configurations
-SSH_TARGET=$TARGET_USER'@'$TARGET
-SSH_SRC=$HOST_USER'@'$SRC
-
-TODAYS_DATA=$(echo ${SRC_DIR}/backup/$(date +%F))
-
-# Parameters
-key="$1"
-MD5_HOST=""
-LOCK=${SRC_DIR}/Lock
 
 myLogger () {
 local head='%-10s%-30s%-30s'
@@ -89,7 +93,7 @@ check () {
 test_con () {
   for run in {1 .. 5} 
   do
-    if ping -q -c 1 -W 1 $TARGET >/dev/null; then
+    if ping -q -c 1 -W 1 $SLAVE >/dev/null; then
       myLogger "4" "test_con" "connection"
       break
     else
@@ -112,7 +116,7 @@ ldap_retrieve () {
       -b ou=openthinclient,dc=openthinclient,dc=org \
       -D uid=admin,ou=system \
       -w0pen%TC \
-      -o ldif-wrap=200 '(&(objectClass=organizationalUnit)(!(description=openthinclient.org Console)))' | tee ${TODAYS_DATA}.ldif >/dev/null
+      -o ldif-wrap=200 '(&(objectClass=organizationalUnit)(!(description=openthinclient.org Console)))' | tee ${TODAYS_DATA}.ldif #>/dev/null
 
   check -f $? "ldap_retrieve" "ldapsearch"
 }
@@ -121,9 +125,12 @@ ldap_send () {
     if [[ -s ${TODAYS_DATA}.ldif ]]; then
         md5sum ${TODAYS_DATA}.ldif | awk '{print $1}' > ${TODAYS_DATA}.md5
         check -f $? "ldap_send" "md5sum"
-        tar -cf - ${TODAYS_DATA}{.md5,.ldif} 2>/dev/null | ssh ${SSH_TARGET} "cat > ${TODAYS_DATA}\.\t\a\r\.\g\z"
+        tar -zcvf ${TODAYS_DATA}.tar.gz --directory=${MASTER_DIR}/backup $(echo ${TODAYS_DATE}){.md5,.ldif} 
+ # 2>/dev/null #| ssh ${SSH_SLAVE} "cat > ${SLAVE_TODAYS_DATA}\.\t\a\r\.\g\z"
+        rsync -av --rsh="ssh" ${TODAYS_DATA}.tar.gz ${SSH_SLAVE}:${SLAVE_TODAYS_DATA}.tar.gz #>/dev/null
+        
         check -f $? "ldap_send" "tar"
-        echo -e "${TODAYS_DATA}" | ssh ${SSH_TARGET} "cat >> ${TARGET_DIR}/transactions.txt" >/dev/null
+        echo -e "${SLAVE_TODAYS_DATA}" | ssh ${SSH_SLAVE} "cat >> ${SLAVE_DIR}/transactions.txt" >/dev/null
         check -f $? "ldap_send" "send"
     else
         myLogger "1" "ldap_send" "lookup ldif"
@@ -131,22 +138,22 @@ ldap_send () {
 }
 
 check_remote () {
-    ssh -q $SSH_TARGET [[ -f "${TODAYS_DATA}\.\t\a\r\.\g\z" ]]  
+    ssh -q $SSH_SLAVE [[ -f "${SLAVE_TODAYS_DATA}\.\t\a\r\.\g\z" ]]  
     check -f $? "check_remote" "lookup archive"  
-    ssh ${SSH_TARGET} "bash ${TARGET_DIR}/push.sh --ostart"    
+    ssh ${SSH_SLAVE} "bash ${SLAVE_DIR}/push.sh --ostart"    
     check -f $? "check_remote" "service start"
     
 }
 
 sync_sfs() {
-  ssh ${SSH_TARGET} "bash ${TARGET_DIR}/push.sh --ostop"  
+  ssh ${SSH_SLAVE} "bash ${SLAVE_DIR}/push.sh --ostop"  
   check -f $? "sync_sfs" "service start"
-  rsync -av --rsh="ssh" /opt/openthinclient/server/default/data/nfs/root/{tftp,sfs,schema} ${SSH_TARGET}:/opt/openthinclient/server/default/data/nfs/root/ >/dev/null
+  rsync -av --rsh="ssh" /opt/openthinclient/server/default/data/nfs/root/{tftp,sfs,schema} ${SSH_SLAVE}:/opt/openthinclient/server/default/data/nfs/root/ >/dev/null
   check -f $? "sync_sfs" "tftp,sfs,schema"
 }
 
 ldap_push () {
-   ssh ${SSH_TARGET} "bash ${TARGET_DIR}/push.sh -p"  
+   ssh ${SSH_SLAVE} "bash ${SLAVE_DIR}/push.sh -p"  
    check -f $? "ldap_push" "invoke push"
    while [ -e ${LOCK} ]
    do
@@ -155,10 +162,21 @@ ldap_push () {
      myLogger "3" "ldap_push" "unlocked" 
 } 
 
+clean() {
+   rm ${MASTER_DIR}/backup/*{.ldif,.md5}
+}
+
 case $key in 
     -h|--help)
         echo -e "synopsis: sync.sh File [option]"  
         echo -e "\t-d or --daily \t\t stores a daily ldap dump from Master, syncs ldap and system folders with slave"
+        shift
+    ;;
+    -t|--test)
+        init
+        test_con
+        ldap_retrieve
+        ldap_send
         shift
     ;;
     -d|--daily)
@@ -169,6 +187,7 @@ case $key in
         ldap_push
         sync_sfs
         check_remote
+        clean
         shift
     ;;
     *)

@@ -1,4 +1,17 @@
 #!/bin/bash
+# Slave
+# Variable definitions
+SLAVE=os-slave
+MASTER=os-master
+
+DIR="/opt/Slave/LDAPsync"
+MASTER_DIR="/opt/Master/LDAPsync"
+TRANSACTIONS=${DIR}"/transactions.txt"
+MASTER_HOST="root"
+
+TODAYS_ARCHIVE=$(tail -n1 ${TRANSACTIONS})
+MD5_SLAVE=""
+key="$1"
 
 # Regular Colors
 Black='\033[0;30m'        # Black
@@ -10,17 +23,6 @@ Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 White='\033[0;37m'        # White
 NC='\033[0m'
-
-DIR:="/opt/LDAPsync/"
-TRANSACTIONS=${DIR}"/transactions.txt"
-#MASTER="10.224.129.216"
-#SLAVE="10.224.129.66"
-MASTER_HOST="root"
-SLAVE:=10.224.129.216
-MASTER:=10.224.129.66
-TODAYS_ARCHIVE=$(tail -n1 ${TRANSACTIONS})
-MD5_SLAVE=""
-key="$1"
 
 myLogger () {
 local head='%-10s%-30s%-30s'
@@ -72,7 +74,7 @@ check () {
 unpack () {
     # archive does not exist
     check -e "${TODAYS_ARCHIVE}.tar.gz" "unpack" "lookup archive"  
-    tar xf ${TODAYS_ARCHIVE}.tar.gz -C /
+    tar xfvz ${TODAYS_ARCHIVE}.tar.gz -C ${DIR}/backup/ 
     check -f $? "unpack" "tar"
 }
 
@@ -100,7 +102,7 @@ delete () {
 push () {
     eval "TODAYS_ARCHIVE=$(tail -n1 ${TRANSACTIONS})" 
     check -e "${TODAYS_ARCHIVE}.ldif" "push" "lookup ldif"
-    ldapadd -f ${TODAYS_ARCHIVE}.ldif -S /root/LDAPsync/logs/$(date +%F_%R).log -x -h localhost -p 10389 -D uid=admin,ou=system -w0pen%TC >/dev/null
+    ldapadd -f ${TODAYS_ARCHIVE}.ldif -S ${DIR}/logs/$(date +%F_%R).log -x -h localhost -p 10389 -D uid=admin,ou=system -w0pen%TC >/dev/null
     check -f $? "push" "ldapadd"
 }
 
@@ -126,14 +128,14 @@ otc_start () {
 }    
 
 unlock () {
-     ssh ${MASTER_HOST}@${MASTER} "rm ${DIR}/Lock"
-     ssh ${MASTER_HOST}@${MASTER} "[[ -e ${DIR}/Lock ]] && failed \"unlocking\""      
+     ssh ${MASTER_HOST}@${MASTER} "rm ${MASTER_DIR}/Lock"
+     ssh ${MASTER_HOST}@${MASTER} "[[ -e ${MASTER_DIR}/Lock ]] && failed \"unlocking\""      
     
 }
 
 lock () {
-    ssh ${MASTER_HOST}@${MASTER} "touch ${DIR}/Lock"
-    ssh ${MASTER_HOST}@${MASTER} "[[ ! -e ${DIR}/Lock ]] && echo \"Locking master failed. Aborting\" && exit 1"
+    ssh ${MASTER_HOST}@${MASTER} "touch ${MASTER_DIR}/Lock"
+    ssh ${MASTER_HOST}@${MASTER} "[[ ! -e ${MASTER_DIR}/Lock ]] && echo \"Locking master failed. Aborting\" && exit 1"
 }
 clean () {
      rm ${TODAYS_ARCHIVE}*.ldif
@@ -142,7 +144,7 @@ clean () {
      myLogger "3" "clean" "remove md5"
 } 
 ldap_restore () {
-    ldapadd -f $1 -S /root/LDAPsync/logs/$(date +%F_%R).log -x -h localhost -p 10389 -D uid=admin,ou=system -w0pen%TC >/dev/null
+    ldapadd -f $1 -S ${DIR}/logs/$(date +%F_%R).log -x -h localhost -p 10389 -D uid=admin,ou=system -w0pen%TC >/dev/null
     check -f $? "push" "ldapadd"
 } 
 

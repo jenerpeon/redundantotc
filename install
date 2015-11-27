@@ -169,5 +169,5 @@ do
 done
 
 init_ssh
-install_slave
-install_master
+#install_slave
+#install_master
