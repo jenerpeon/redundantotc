@@ -1,0 +1,2699 @@
+# Error: Already exists (68), additional info: failed to add entry ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=appgroups,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# appgroups, openthinclient, openthinclient.org
+dn: ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org
+ou: appgroups
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Account.Domain,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Account.Domain, profile, rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=Application.Account.Domain,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: opentc
+cn: Application.Account.Domain
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Account.Password,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Account.Password, profile, rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=Application.Account.Password,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: blafasel
+cn: Application.Account.Password
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Account.User,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Account.User, profile, rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=Application.Account.User,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: j.frenzel
+cn: Application.Account.User
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Cmdline,nismapname=profile,cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Cmdline, profile, 1050: alsactl restore, apps, openthinclient, openthinclient.org
+dn: cn=Application.Cmdline,nismapname=profile,cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: alsactl -f /tcos/link/custom/alsa.speaker.setting restore
+cn: Application.Cmdline
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Cmdline,nismapname=profile,cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Cmdline, profile, reboot, apps, openthinclient, openthinclient.org
+dn: cn=Application.Cmdline,nismapname=profile,cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: tcos-reboot
+cn: Application.Cmdline
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Cmdline,nismapname=profile,cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Cmdline, profile, shutdown, apps, openthinclient, openthinclient.org
+dn: cn=Application.Cmdline,nismapname=profile,cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: tcos-shutdown
+cn: Application.Cmdline
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Connection.Parameter,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Connection.Parameter, profile, rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=Application.Connection.Parameter,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -r addin:Cherry0:/usr/bin/cdiwtsclient0_lin32 -r addin:Cherry1:/usr/bin/cdiwtsclient1_lin32
+cn: Application.Connection.Parameter
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.iSeriesAccessLicensing.Password,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.iSeriesAccessLicensing.Password, profile, 5250-Scherer, apps, openthinclient, openthinclient.org
+dn: cn=Application.iSeriesAccessLicensing.Password,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: geheim1
+cn: Application.iSeriesAccessLicensing.Password
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.iSeriesAccessLicensing.User,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.iSeriesAccessLicensing.User, profile, 5250-Scherer, apps, openthinclient, openthinclient.org
+dn: cn=Application.iSeriesAccessLicensing.User,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: OPENTHIN
+cn: Application.iSeriesAccessLicensing.User
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.iSeriesAccessLicensing.UserData,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.iSeriesAccessLicensing.UserData, profile, 5250-Scherer, apps, openthinclient, openthinclient.org
+dn: cn=Application.iSeriesAccessLicensing.UserData,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: Account
+cn: Application.iSeriesAccessLicensing.UserData
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Language.locale,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Language.locale, profile, 5250-Scherer, apps, openthinclient, openthinclient.org
+dn: cn=Application.Language.locale,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: de_DE
+cn: Application.Language.locale
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Language.locale_custom,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Language.locale_custom, profile, 5250-Scherer, apps, openthinclient, openthinclient.org
+dn: cn=Application.Language.locale_custom,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: de
+cn: Application.Language.locale_custom
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Server,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Server, profile, 5250-Scherer, apps, openthinclient, openthinclient.org
+dn: cn=Application.Server,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: pub1.rzkh.de
+cn: Application.Server
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Server,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Server, profile, rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=Application.Server,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 10.224.0.9
+cn: Application.Server
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.SpecificColormap.Colormap,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.SpecificColormap.Colormap, profile, 5250-Scherer, apps, openthinclient, openthinclient.org
+dn: cn=Application.SpecificColormap.Colormap,nismapname=profile,cn=5250-Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: manual
+cn: Application.SpecificColormap.Colormap
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Application.Window.WindowType,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# Application.Window.WindowType, profile, rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=Application.Window.WindowType,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: manual
+cn: Application.Window.WindowType
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# apps, openthinclient, openthinclient.org
+dn: ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+ou: apps
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=Usbrdr,ou=devices,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Autostart__BOOL,nismapname=profile,cn=Usbrdr,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Usbrdr,ou=devices,ou=openthinclient,dc=openthinclient,dc=org not found
+# Autostart__BOOL, profile, Usbrdr, devices, openthinclient, openthinclient.org
+dn: cn=Autostart__BOOL,nismapname=profile,cn=Usbrdr,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: false
+cn: Autostart__BOOL
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.BootfileName,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.BootfileName, profile, Fedora Installer (EFI), hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.BootfileName,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: /fedora/efi/BOOTX64.EFI
+cn: BootOptions.BootfileName
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.Debug,nismapname=profile,cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.Debug, profile, virtuellerJoern-eth0, clients, openthinclient, openthinclient.org
+dn: cn=BootOptions.Debug,nismapname=profile,cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry:: IA==
+cn: BootOptions.Debug
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=vm-borna-wifi,ou=clients,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.Debug,nismapname=profile,cn=vm-borna-wifi,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=vm-borna-wifi,ou=clients,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.Debug, profile, vm-borna-wifi, clients, openthinclient, openthinclient.org
+dn: cn=BootOptions.Debug,nismapname=profile,cn=vm-borna-wifi,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: debug=true
+cn: BootOptions.Debug
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.ExtraOptions,nismapname=profile,cn=Debian Installer,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Debian Installer,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.ExtraOptions, profile, Debian Installer, hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.ExtraOptions,nismapname=profile,cn=Debian Installer,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: vga=788 quiet
+cn: BootOptions.ExtraOptions
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.ExtraOptions,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.ExtraOptions, profile, Fedora Installer (EFI), hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.ExtraOptions,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: inst.repo=http://dl.fedoraproject.org/pub/fedora/linux/development/22/x86_64/os/
+cn: BootOptions.ExtraOptions
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.FirmwareImage,nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.FirmwareImage, profile, custom initrd.gz, hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.FirmwareImage,nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: ,firmware.img
+cn: BootOptions.FirmwareImage
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=1780,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.GpuModule,nismapname=profile,cn=1780,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=1780,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.GpuModule, profile, 1780, hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.GpuModule,nismapname=profile,cn=1780,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: fglrx=true
+cn: BootOptions.GpuModule
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.GpuModule,nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.GpuModule, profile, custom initrd.gz, hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.GpuModule,nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: fglrx=true
+cn: BootOptions.GpuModule
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.InitrdName,nismapname=profile,cn=Debian Installer,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Debian Installer,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.InitrdName, profile, Debian Installer, hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.InitrdName,nismapname=profile,cn=Debian Installer,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: di/initrd.gz
+cn: BootOptions.InitrdName
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.InitrdName,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.InitrdName, profile, Fedora Installer (EFI), hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.InitrdName,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: /fedora/initrd.img
+cn: BootOptions.InitrdName
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.KernelName,nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.KernelName, profile, custom initrd.gz, hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.KernelName,nismapname=profile,cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: vmlinuz
+cn: BootOptions.KernelName
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.KernelName,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.KernelName, profile, Fedora Installer (EFI), hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.KernelName,nismapname=profile,cn=Fedora Installer (EFI),ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: /fedora/vmlinuz
+cn: BootOptions.KernelName
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=BootOptions.KernelName,nismapname=profile,cn=Futros,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Futros,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org not found
+# BootOptions.KernelName, profile, Futros, hwtypes, openthinclient, openthinclient.org
+dn: cn=BootOptions.KernelName,nismapname=profile,cn=Futros,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: vmlinuz
+cn: BootOptions.KernelName
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Citrix-12er-Desktop bei Levigo,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=citrix-12er-desktop bei levigo,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Citrix-12er-Desktop bei Levigo, apps, openthinclient, openthinclient.org
+dn: cn=Citrix-12er-Desktop bei Levigo,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Citrix-12er-Desktop bei Levigo
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=citrix-6.5er-bla-desktop-joern,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Citrix-6.5er-bla-Desktop-Joern, apps, openthinclient, openthinclient.org
+dn: cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Citrix-6.5er-bla-Desktop-Joern
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Citrix-6.5er-bla-Desktop-Steffen,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=citrix-6.5er-bla-desktop-steffen,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Citrix-6.5er-bla-Desktop-Steffen, apps, openthinclient, openthinclient.org
+dn: cn=Citrix-6.5er-bla-Desktop-Steffen,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Citrix-6.5er-bla-Desktop-Steffen
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=clientgroups,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=clientgroups,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# clientgroups, openthinclient, openthinclient.org
+dn: ou=clientgroups,ou=openthinclient,dc=openthinclient,dc=org
+ou: clientgroups
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# clients, openthinclient, openthinclient.org
+dn: ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+ou: clients
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Desktop: Kiosk,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=desktop: kiosk,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Desktop: Kiosk, apps, openthinclient, openthinclient.org
+dn: cn=Desktop: Kiosk,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Kiosk-Iceweasel,ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org
+cn: Desktop: Kiosk
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Desktop: Mate,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=desktop: mate,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Desktop: Mate, apps, openthinclient, openthinclient.org
+dn: cn=Desktop: Mate,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-borna,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Desktop: Mate
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=printers,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Device,nismapname=profile,cn=HP F300,ou=printers,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=HP F300,ou=printers,ou=openthinclient,dc=openthinclient,dc=org not found
+# Device, profile, HP F300, printers, openthinclient, openthinclient.org
+dn: cn=Device,nismapname=profile,cn=HP F300,ou=printers,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 0045:8839
+cn: Device
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# devices, openthinclient, openthinclient.org
+dn: ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+ou: devices
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Dictaphone: Philips Speechmike,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dictaphone: philips speechmike,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Dictaphone: Philips Speechmike, devices, openthinclient, openthinclient.org
+dn: cn=Dictaphone: Philips Speechmike,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Dictaphone: Philips Speechmike
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Directory.Secondary.LDAPURLs,nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org not found
+# Directory.Secondary.LDAPURLs, profile, RealmConfiguration, openthinclient, openthinclient.org
+dn: cn=Directory.Secondary.LDAPURLs,nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: ldap://10.208.0.42/ou=openthinclient,dc=levigo,dc=levigo
+cn: Directory.Secondary.LDAPURLs
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Directory.Secondary.ReadOnly.Principal,nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org not found
+# Directory.Secondary.ReadOnly.Principal, profile, RealmConfiguration, openthinclient, openthinclient.org
+dn: cn=Directory.Secondary.ReadOnly.Principal,nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: levigo\otcldapquery
+cn: Directory.Secondary.ReadOnly.Principal
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Directory.Secondary.ReadOnly.Secret,nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org not found
+# Directory.Secondary.ReadOnly.Secret, profile, RealmConfiguration, openthinclient, openthinclient.org
+dn: cn=Directory.Secondary.ReadOnly.Secret,nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: ldap4otc!
+cn: Directory.Secondary.ReadOnly.Secret
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Dispaly-1564-VGA-1,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dispaly-1564-vga-1,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Dispaly-1564-VGA-1, devices, openthinclient, openthinclient.org
+dn: cn=Dispaly-1564-VGA-1,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Dispaly-1564-VGA-1
+
+# Error: Already exists (68), additional info: failed to add entry cn=Display-1657-singleScreen-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=display-1657-singlescreen-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Display-1657-singleScreen-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=Display-1657-singleScreen-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Display-1657-singleScreen-1280x1024
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=display-1790-fglrx-dual-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Display-1790-fglrx-dual-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Display-1790-fglrx-dual-1280x1024
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Display-peter,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=display-peter,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Display-peter, devices, openthinclient, openthinclient.org
+dn: cn=Display-peter,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Display-peter
+
+# Error: Already exists (68), additional info: failed to add entry cn=Display1056,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=display1056,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Display1056, devices, openthinclient, openthinclient.org
+dn: cn=Display1056,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Display1056
+
+# Error: Already exists (68), additional info: failed to add entry cn=Display: 1280x1024 (HDMI-0),ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=display: 1280x1024 (hdmi-0),2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Display: 1280x1024 (HDMI-0), devices, openthinclient, openthinclient.org
+dn: cn=Display: 1280x1024 (HDMI-0),ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=terra-reiff,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=terra-ion,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Display: 1280x1024 (HDMI-0)
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=displayset1fujutsu-s700,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Displayset1Fujutsu-S700, devices, openthinclient, openthinclient.org
+dn: cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Displayset1Fujutsu-S700
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dual-1658,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# dual-1658, devices, openthinclient, openthinclient.org
+dn: cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: dual-1658
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dual-fglrx-1790-1780-1280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Dual-fglrx-1790-1780-1280, devices, openthinclient, openthinclient.org
+dn: cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1280,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Dual-fglrx-1790-1780-1280
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dualscreen-1050,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# DualScreen-1050, devices, openthinclient, openthinclient.org
+dn: cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: DualScreen-1050
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=DualScreen-1780,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dualscreen-1780,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# DualScreen-1780, devices, openthinclient, openthinclient.org
+dn: cn=DualScreen-1780,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: DualScreen-1780
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dualscreen-1790,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Dualscreen-1790, devices, openthinclient, openthinclient.org
+dn: cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Dualscreen-1790
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=dualscreen1280er,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# dualScreen1280er, devices, openthinclient, openthinclient.org
+dn: cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: dualScreen1280er
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=eToken,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=etoken,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# eToken, devices, openthinclient, openthinclient.org
+dn: cn=eToken,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: eToken
+
+# Error: Already exists (68), additional info: failed to add entry cn=freeRDP-TServer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=freerdp-tserver,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# freeRDP-TServer, apps, openthinclient, openthinclient.org
+dn: cn=freeRDP-TServer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm01lars,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: freeRDP-TServer
+description: 10.208.0.95
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=freerdp-win7virt,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=freerdp-win7virt,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# freerdp-win7virt, apps, openthinclient, openthinclient.org
+dn: cn=freerdp-win7virt,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-trick-03_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: freerdp-win7virt
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=fthrsg,ou=clientgroups,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=fthrsg,2.5.4.11=clientgroups,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# fthrsg, clientgroups, openthinclient, openthinclient.org
+dn: cn=fthrsg,ou=clientgroups,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: fthrsg
+
+# Error: Already exists (68), additional info: failed to add entry cn=Futro-s300,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=futro-s300,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Futro-s300, clients, openthinclient, openthinclient.org
+dn: cn=Futro-s300,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.105
+cn: Futro-s300
+macaddress: 00:90:dc:05:70:4e
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=futro-s350,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=futro-s350,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# futro-s350, clients, openthinclient, openthinclient.org
+dn: cn=futro-s350,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.77
+cn: futro-s350
+macaddress: 00:90:dc:a1:b6:67
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=futro-s450,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Futro-S450, clients, openthinclient, openthinclient.org
+dn: cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.253
+cn: Futro-S450
+macaddress: 00:19:99:60:87:46
+description: 00:19:99:60:87:46
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Futro-S450-2,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=futro-s450-2,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Futro-S450-2, clients, openthinclient, openthinclient.org
+dn: cn=Futro-S450-2,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.181
+cn: Futro-S450-2
+macaddress: 00:19:99:6a:cd:e4
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Futro-S450-fglrx,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=futro-s450-fglrx,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Futro-S450-fglrx, devices, openthinclient, openthinclient.org
+dn: cn=Futro-S450-fglrx,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Futro-S450-2,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Futro-S550,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Futro-s300,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Futro-S450-fglrx
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Futro-S550,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=futro-s550,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Futro-S550, clients, openthinclient, openthinclient.org
+dn: cn=Futro-S550,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.28
+cn: Futro-S550
+macaddress: 00:19:99:50:22:b1
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=General.Autostart,nismapname=profile,cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# General.Autostart, profile, 1050: alsactl restore, apps, openthinclient, openthinclient.org
+dn: cn=General.Autostart,nismapname=profile,cn=1050: alsactl restore,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: Yes
+cn: General.Autostart
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=General.custom_icon,nismapname=profile,cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# General.custom_icon, profile, reboot, apps, openthinclient, openthinclient.org
+dn: cn=General.custom_icon,nismapname=profile,cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: icon.png
+cn: General.custom_icon
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=General.custom_icon,nismapname=profile,cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# General.custom_icon, profile, shutdown, apps, openthinclient, openthinclient.org
+dn: cn=General.custom_icon,nismapname=profile,cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: icon.png
+cn: General.custom_icon
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=General.Version,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org not found
+# General.Version, profile, rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=General.Version,nismapname=profile,cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1.8.3
+cn: General.Version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=halti,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=halti,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# halti, apps, openthinclient, openthinclient.org
+dn: cn=halti,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: halti
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=gemeinschaft,ou=printers,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Host,nismapname=profile,cn=gemeinschaft,ou=printers,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=gemeinschaft,ou=printers,ou=openthinclient,dc=openthinclient,dc=org not found
+# Host, profile, gemeinschaft, printers, openthinclient, openthinclient.org
+dn: cn=Host,nismapname=profile,cn=gemeinschaft,ou=printers,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 10.224.129.254
+cn: Host
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# hwtypes, openthinclient, openthinclient.org
+dn: ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+ou: hwtypes
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=iaccess_Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=iaccess_scherer,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# iaccess_Scherer, apps, openthinclient, openthinclient.org
+dn: cn=iaccess_Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=alles,ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-borna,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: iaccess_Scherer
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=ibm5250_cz,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=ibm5250_cz,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# ibm5250_cz, apps, openthinclient, openthinclient.org
+dn: cn=ibm5250_cz,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: ibm5250_cz
+
+# Error: Already exists (68), additional info: failed to add entry cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=ica12: bla@otc-tserver (shoenig),2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# ica12: bla@otc-tserver (shoenig), apps, openthinclient, openthinclient.org
+dn: cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-borna,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: ica12: bla@otc-tserver (shoenig)
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Iceweasel,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=iceweasel,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Iceweasel, apps, openthinclient, openthinclient.org
+dn: cn=Iceweasel,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Kiosk-Iceweasel,ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org
+cn: Iceweasel
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=joerns,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# joerns, hwtypes, openthinclient, openthinclient.org
+dn: cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=nvidia-PC,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-2044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1056,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: joerns
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=joerns-none-pae,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# joerns-none-PAE, hwtypes, openthinclient, openthinclient.org
+dn: cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: joerns-none-PAE
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=keyboard: cz,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Keyboard: cz, devices, openthinclient, openthinclient.org
+dn: cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Keyboard: cz
+
+# Error: Already exists (68), additional info: failed to add entry cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=keyboard: de,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Keyboard: de, devices, openthinclient, openthinclient.org
+dn: cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=custom initrd.gz,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-borna,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Default (de): Autologon,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Keyboard: de
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Kiosk-Iceweasel,ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=kiosk-iceweasel,2.5.4.11=appgroups,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Kiosk-Iceweasel, appgroups, openthinclient, openthinclient.org
+dn: cn=Kiosk-Iceweasel,ou=appgroups,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=terra-ion,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Kiosk-Iceweasel
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: No such object (32), matched DN: l=Chris-Test,ou=locations,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Lang.lang,nismapname=profile,l=Chris-Test,ou=locations,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,l=Chris-Test,ou=locations,ou=openthinclient,dc=openthinclient,dc=org not found
+# Lang.lang, profile, Chris-Test, locations, openthinclient, openthinclient.org
+dn: cn=Lang.lang,nismapname=profile,l=Chris-Test,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: en_IE.UTF-8
+cn: Lang.lang
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: l=English,ou=locations,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Lang.lang,nismapname=profile,l=English,ou=locations,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,l=English,ou=locations,ou=openthinclient,dc=openthinclient,dc=org not found
+# Lang.lang, profile, English, locations, openthinclient, openthinclient.org
+dn: cn=Lang.lang,nismapname=profile,l=English,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: en_DK.UTF-8
+cn: Lang.lang
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Lang.lang,nismapname=profile,l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org not found
+# Lang.lang, profile, German, locations, openthinclient, openthinclient.org
+dn: cn=Lang.lang,nismapname=profile,l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: de_DE.UTF-8
+cn: Lang.lang
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Lars,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=lars,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Lars, hwtypes, openthinclient, openthinclient.org
+dn: cn=Lars,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: Lars
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=lars-cfbrk,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=lars-cfbrk,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# lars-cfbrk, clients, openthinclient, openthinclient.org
+dn: cn=lars-cfbrk,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 0.0.0.0
+cn: lars-cfbrk
+macaddress: 00:21:cc:c6:1c:40
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=LB-mmcblk0,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=lb-mmcblk0,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# LB-mmcblk0, apps, openthinclient, openthinclient.org
+dn: cn=LB-mmcblk0,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: LB-mmcblk0
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=LB-sda-dynamic-IP,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=lb-sda-dynamic-ip,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# LB-sda-dynamic-IP, apps, openthinclient, openthinclient.org
+dn: cn=LB-sda-dynamic-IP,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: LB-sda-dynamic-IP
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Localbootpeter,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=localbootpeter,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Localbootpeter, apps, openthinclient, openthinclient.org
+dn: cn=Localbootpeter,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Localbootpeter
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=locations,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=locations,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# locations, openthinclient, openthinclient.org
+dn: ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+ou: locations
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=ltc-842,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# ltc-842, clients, openthinclient, openthinclient.org
+dn: cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.161
+cn: ltc-842
+macaddress: 00:05:6b:40:14:cc
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=nfs-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=nfs-home,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# nfs-home, devices, openthinclient, openthinclient.org
+dn: cn=nfs-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: nfs-home
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=nvidia-340,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=nvidia-340,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# nvidia-340, hwtypes, openthinclient, openthinclient.org
+dn: cn=nvidia-340,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=terra-ion,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: nvidia-340
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=nvidia-nvs280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# nvidia-NVS280, devices, openthinclient, openthinclient.org
+dn: cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: nvidia-NVS280
+
+# Error: Already exists (68), additional info: failed to add entry cn=nvidia-PC,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=nvidia-pc,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# nvidia-PC, clients, openthinclient, openthinclient.org
+dn: cn=nvidia-PC,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.54
+cn: nvidia-PC
+macaddress: f4:ce:46:03:4f:b9
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=openchromescheissdisplay,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=openchromescheissdisplay,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# openchromescheissdisplay, devices, openthinclient, openthinclient.org
+dn: cn=openchromescheissdisplay,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: openchromescheissdisplay
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1044,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1044, clients, openthinclient, openthinclient.org
+dn: cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.150
+cn: otc-1044
+macaddress: 00:05:6b:40:33:83
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1050,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1050, clients, openthinclient, openthinclient.org
+dn: cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.139
+cn: otc-1050
+description: 00:e0:c5:62:e8:1e
+macaddress: 00:e0:c5:62:e8:1e
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1056,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1056,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1056, clients, openthinclient, openthinclient.org
+dn: cn=otc-1056,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.204
+cn: otc-1056
+macaddress: 00:e0:c5:44:44:fd
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1280,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1280,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1280, clients, openthinclient, openthinclient.org
+dn: cn=otc-1280,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.141
+cn: otc-1280
+description: disabled
+macaddress: 00:1f:1e:02:e8:b4
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1564,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1564, clients, openthinclient, openthinclient.org
+dn: cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.77
+cn: otc-1564
+macaddress: 00:e0:c5:4e:80:04
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1657,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1657,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1657, clients, openthinclient, openthinclient.org
+dn: cn=otc-1657,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 0.0.0.0
+cn: otc-1657
+macaddress: 00:e0:c5:3a:d8:bc
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1658,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1658, clients, openthinclient, openthinclient.org
+dn: cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.10
+cn: otc-1658
+macaddress: 00:e0:c5:49:4d:1d
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1697,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1697, clients, openthinclient, openthinclient.org
+dn: cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.227
+cn: otc-1697
+description: 00:e0:c5:45:13:10
+macaddress: 00:e0:c5:45:13:10
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-1790,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-1790, clients, openthinclient, openthinclient.org
+dn: cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.209
+cn: otc-1790
+macaddress: 00:e0:c5:34:9b:68
+description: 00:e0:c5:34:9b:68
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-2044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-2044,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-2044, clients, openthinclient, openthinclient.org
+dn: cn=otc-2044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.21
+cn: otc-2044
+macaddress: 00:e0:c5:4d:e7:5b
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-lotte1,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-lotte1,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-lotte1, clients, openthinclient, openthinclient.org
+dn: cn=otc-lotte1,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.245
+cn: otc-lotte1
+description: 00:e0:c5:10:76:24
+macaddress: 00:e0:c5:10:24:76
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=otc-storefront,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=otc-storefront,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# otc-storefront, apps, openthinclient, openthinclient.org
+dn: cn=otc-storefront,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: otc-storefront
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=peter,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Peter, clients, openthinclient, openthinclient.org
+dn: cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.224
+cn: Peter
+macaddress: 00:e0:c5:36:38:45
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=peter display,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Peter Display, devices, openthinclient, openthinclient.org
+dn: cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+cn: Peter Display
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=peter-1780,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Peter-1780, clients, openthinclient, openthinclient.org
+dn: cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.172
+cn: Peter-1780
+macaddress: 00:1f:1e:03:12:b5
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=peters,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# peters, hwtypes, openthinclient, openthinclient.org
+dn: cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: peters
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=petertreiber,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=petertreiber,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# petertreiber, hwtypes, openthinclient, openthinclient.org
+dn: cn=petertreiber,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: petertreiber
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=HP F300,ou=printers,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Port,nismapname=profile,cn=HP F300,ou=printers,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=HP F300,ou=printers,ou=openthinclient,dc=openthinclient,dc=org not found
+# Port, profile, HP F300, printers, openthinclient, openthinclient.org
+dn: cn=Port,nismapname=profile,cn=HP F300,ou=printers,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: usb
+cn: Port
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: No such object (32), matched DN: cn=Kyocera (Parallel),ou=printers,ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=Port,nismapname=profile,cn=Kyocera (Parallel),ou=printers,ou=openthinclient,dc=openthinclient,dc=org: Parent nismapname=profile,cn=Kyocera (Parallel),ou=printers,ou=openthinclient,dc=openthinclient,dc=org not found
+# Port, profile, Kyocera (Parallel), printers, openthinclient, openthinclient.org
+dn: cn=Port,nismapname=profile,cn=Kyocera (Parallel),ou=printers,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: parallel
+cn: Port
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=printers,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=printers,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# printers, openthinclient, openthinclient.org
+dn: ou=printers,ou=openthinclient,dc=openthinclient,dc=org
+ou: printers
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Citrix-12er-Desktop bei Levigo,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=citrix-12er-desktop bei levigo,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Citrix-12er-Desktop bei Levigo, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Citrix-12er-Desktop bei Levigo,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: ica-client-12
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=citrix-6.5er-bla-desktop-joern,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Citrix-6.5er-bla-Desktop-Joern, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: ica-client-13
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Steffen,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=citrix-6.5er-bla-desktop-steffen,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Citrix-6.5er-bla-Desktop-Steffen, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Steffen,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: ica-client-13
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Desktop: Kiosk,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=desktop: kiosk,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Desktop: Kiosk, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Desktop: Kiosk,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: desktop
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Desktop: Mate,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=desktop: mate,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Desktop: Mate, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Desktop: Mate,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: desktop
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Dictaphone: Philips Speechmike,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dictaphone: philips speechmike,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Dictaphone: Philips Speechmike, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Dictaphone: Philips Speechmike,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: philips-spmk
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Dispaly-1564-VGA-1,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dispaly-1564-vga-1,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Dispaly-1564-VGA-1, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Dispaly-1564-VGA-1,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Display-1657-singleScreen-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1657-singlescreen-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Display-1657-singleScreen-1280x1024, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Display-1657-singleScreen-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1790-fglrx-dual-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Display-1790-fglrx-dual-1280x1024, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Display-peter,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=display-peter,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Display-peter, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Display-peter,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Display1056,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=display1056,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Display1056, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Display1056,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Display: 1280x1024 (HDMI-0),ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=display: 1280x1024 (hdmi-0),2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Display: 1280x1024 (HDMI-0), devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Display: 1280x1024 (HDMI-0),ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=displayset1fujutsu-s700,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Displayset1Fujutsu-S700, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-1658,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, dual-1658, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-fglrx-1790-1780-1280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Dual-fglrx-1790-1780-1280, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1050,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, DualScreen-1050, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=DualScreen-1780,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1780,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, DualScreen-1780, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=DualScreen-1780,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1790,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Dualscreen-1790, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen1280er,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, dualScreen1280er, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=eToken,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=etoken,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, eToken, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=eToken,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: smartcard
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=freeRDP-TServer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=freerdp-tserver,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, freeRDP-TServer, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=freeRDP-TServer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: freerdp-git
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=freerdp-win7virt,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=freerdp-win7virt,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, freerdp-win7virt, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=freerdp-win7virt,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: freerdp-git
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Futro-s300,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s300,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Futro-s300, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Futro-s300,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=futro-s350,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s350,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, futro-s350, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=futro-s350,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s450,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Futro-S450, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Futro-S450-2,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s450-2,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Futro-S450-2, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Futro-S450-2,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Futro-S450-fglrx,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s450-fglrx,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Futro-S450-fglrx, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Futro-S450-fglrx,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Futro-S550,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s550,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Futro-S550, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Futro-S550,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=halti,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=halti,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, halti, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=halti,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: cmdline
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=iaccess_Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=iaccess_scherer,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, iaccess_Scherer, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=iaccess_Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: iaccess
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=ibm5250_cz,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=ibm5250_cz,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, ibm5250_cz, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=ibm5250_cz,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: ibm
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=ica12: bla@otc-tserver (shoenig),2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, ica12: bla@otc-tserver (shoenig), apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: ica-client-12
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Iceweasel,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=iceweasel,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Iceweasel, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Iceweasel,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: browser
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=joerns,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, joerns, hwtypes, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: hardwaretype
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=joerns-none-pae,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, joerns-none-PAE, hwtypes, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: hardwaretype
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=keyboard: cz,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Keyboard: cz, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: keyboard
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=keyboard: de,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Keyboard: de, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: keyboard
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Lars,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=lars,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Lars, hwtypes, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Lars,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: hardwaretype
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=lars-cfbrk,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=lars-cfbrk,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, lars-cfbrk, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=lars-cfbrk,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=LB-mmcblk0,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=lb-mmcblk0,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, LB-mmcblk0, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=LB-mmcblk0,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: localboot
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=LB-sda-dynamic-IP,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=lb-sda-dynamic-ip,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, LB-sda-dynamic-IP, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=LB-sda-dynamic-IP,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: localboot
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Localbootpeter,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=localbootpeter,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Localbootpeter, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Localbootpeter,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: localboot
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=ltc-842,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, ltc-842, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=nfs-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=nfs-home,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, nfs-home, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=nfs-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: persistenthome
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=nvidia-340,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-340,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, nvidia-340, hwtypes, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=nvidia-340,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: hardwaretype
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-nvs280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, nvidia-NVS280, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=nvidia-PC,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-pc,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, nvidia-PC, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=nvidia-PC,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=openchromescheissdisplay,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=openchromescheissdisplay,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, openchromescheissdisplay, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=openchromescheissdisplay,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1044,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1044, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1050,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1050, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1056,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1056,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1056, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1056,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1280,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1280,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1280, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1280,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1564,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1564, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1657,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1657,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1657, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1657,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1658,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1658, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1697,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1697, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1790,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-1790, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-2044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-2044,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-2044, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-2044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-lotte1,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-lotte1,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-lotte1, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-lotte1,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=otc-storefront,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-storefront,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, otc-storefront, apps, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=otc-storefront,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: ica-storebrowse-13
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=peter,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Peter, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=peter display,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Peter Display, devices, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: display
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=peter-1780,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, Peter-1780, clients, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: client
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=peters,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, peters, hwtypes, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: hardwaretype
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry nismapname=profile,cn=petertreiber,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 1.3.6.1.1.1.1.26=profile,2.5.4.3=petertreiber,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# profile, petertreiber, hwtypes, openthinclient, openthinclient.org
+dn: nismapname=profile,cn=petertreiber,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: hardwaretype
+nismapname: profile
+
+# Error: Already exists (68), additional info: failed to add entry cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=rdesktop,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# rdesktop, apps, openthinclient, openthinclient.org
+dn: cn=rdesktop,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-trick-03_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: rdesktop
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=realmconfiguration,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# RealmConfiguration, openthinclient, openthinclient.org
+dn: ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+ou: RealmConfiguration
+description: otc-dd-dev2
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=reboot,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# reboot, apps, openthinclient, openthinclient.org
+dn: cn=reboot,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm01lars,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: reboot
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Remoteverbindung,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=remoteverbindung,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Remoteverbindung, apps, openthinclient, openthinclient.org
+dn: cn=Remoteverbindung,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Remoteverbindung
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=roPrincipal,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=roprincipal,2.5.4.11=realmconfiguration,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# roPrincipal, RealmConfiguration, openthinclient, openthinclient.org
+dn: cn=roPrincipal,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+userpassword:: e01ENX1YcjRpbE96UTRQQ09xM2FRMHFidWFRPT0=
+sn: Read Only User
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: roPrincipal
+
+# Error: Already exists (68), additional info: failed to add entry cn=SAPs,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=saps,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# SAPs, apps, openthinclient, openthinclient.org
+dn: cn=SAPs,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: SAPs
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Citrix-12er-Desktop bei Levigo,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=citrix-12er-desktop bei levigo,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Citrix-12er-Desktop bei Levigo, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Citrix-12er-Desktop bei Levigo,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1513828449
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=citrix-6.5er-bla-desktop-joern,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Citrix-6.5er-bla-Desktop-Joern, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1337893659
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Steffen,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=citrix-6.5er-bla-desktop-steffen,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Citrix-6.5er-bla-Desktop-Steffen, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Steffen,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1337893659
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Desktop: Kiosk,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=desktop: kiosk,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Desktop: Kiosk, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Desktop: Kiosk,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -958024317
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Desktop: Mate,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=desktop: mate,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Desktop: Mate, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Desktop: Mate,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1763020240
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Dictaphone: Philips Speechmike,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dictaphone: philips speechmike,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Dictaphone: Philips Speechmike, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Dictaphone: Philips Speechmike,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 97187628
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Dispaly-1564-VGA-1,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dispaly-1564-vga-1,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Dispaly-1564-VGA-1, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Dispaly-1564-VGA-1,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1580603240
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Display-1657-singleScreen-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1657-singlescreen-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Display-1657-singleScreen-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Display-1657-singleScreen-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1580603241
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1790-fglrx-dual-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Display-1790-fglrx-dual-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1342037243
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Display-peter,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=display-peter,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Display-peter, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Display-peter,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2094062027
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Display1056,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=display1056,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Display1056, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Display1056,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1580603241
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Display: 1280x1024 (HDMI-0),ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=display: 1280x1024 (hdmi-0),2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Display: 1280x1024 (HDMI-0), devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Display: 1280x1024 (HDMI-0),ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2094062027
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=displayset1fujutsu-s700,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Displayset1Fujutsu-S700, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1580603241
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-1658,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, dual-1658, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2094062027
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-fglrx-1790-1780-1280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Dual-fglrx-1790-1780-1280, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1830490713
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1050,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, DualScreen-1050, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2094062027
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=DualScreen-1780,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1780,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, DualScreen-1780, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=DualScreen-1780,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1342037243
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1790,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Dualscreen-1790, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1580603241
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen1280er,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, dualScreen1280er, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1580603241
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=eToken,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=etoken,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, eToken, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=eToken,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1598696479
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=freeRDP-TServer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=freerdp-tserver,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, freeRDP-TServer, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=freeRDP-TServer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1257161475
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=freerdp-win7virt,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=freerdp-win7virt,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, freerdp-win7virt, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=freerdp-win7virt,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -960705889
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Futro-s300,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s300,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Futro-s300, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Futro-s300,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=futro-s350,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s350,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, futro-s350, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=futro-s350,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s450,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Futro-S450, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Futro-S450,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Futro-S450-2,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s450-2,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Futro-S450-2, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Futro-S450-2,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Futro-S450-fglrx,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s450-fglrx,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Futro-S450-fglrx, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Futro-S450-fglrx,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1342037243
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Futro-S550,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=futro-s550,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Futro-S550, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Futro-S550,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=halti,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=halti,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, halti, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=halti,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -828477047
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=iaccess_Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=iaccess_scherer,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, iaccess_Scherer, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=iaccess_Scherer,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1586119993
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=ibm5250_cz,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=ibm5250_cz,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, ibm5250_cz, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=ibm5250_cz,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 642524910
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=ica12: bla@otc-tserver (shoenig),2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, ica12: bla@otc-tserver (shoenig), apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1513828449
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Iceweasel,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=iceweasel,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Iceweasel, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Iceweasel,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1979696327
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=joerns,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, joerns, hwtypes, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1074574043
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=joerns-none-pae,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, joerns-none-PAE, hwtypes, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1074574043
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=keyboard: cz,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Keyboard: cz, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 701608389
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=keyboard: de,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Keyboard: de, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1083523007
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Lars,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=lars,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Lars, hwtypes, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Lars,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1074574043
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=lars-cfbrk,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=lars-cfbrk,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, lars-cfbrk, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=lars-cfbrk,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=LB-mmcblk0,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=lb-mmcblk0,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, LB-mmcblk0, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=LB-mmcblk0,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1474159867
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=LB-sda-dynamic-IP,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=lb-sda-dynamic-ip,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, LB-sda-dynamic-IP, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=LB-sda-dynamic-IP,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1474159867
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Localbootpeter,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=localbootpeter,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Localbootpeter, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Localbootpeter,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1474159867
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=ltc-842,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, ltc-842, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=ltc-842,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=nfs-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=nfs-home,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, nfs-home, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=nfs-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1824120383
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=nvidia-340,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-340,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, nvidia-340, hwtypes, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=nvidia-340,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1074574043
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-nvs280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, nvidia-NVS280, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1580603240
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=nvidia-PC,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-pc,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, nvidia-PC, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=nvidia-PC,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=openchromescheissdisplay,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=openchromescheissdisplay,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, openchromescheissdisplay, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=openchromescheissdisplay,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2094062027
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1044,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1044, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2124686761
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1050,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1050, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1050,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1056,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1056,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1056, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1056,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1280,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1280,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1280, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1280,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2124686761
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1564,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1564, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1564,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1657,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1657,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1657, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1657,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1658,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1658, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1658,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1697,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1697, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1697,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-1790,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-1790, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-1790,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-2044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-2044,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-2044, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-2044,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-lotte1,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-lotte1,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-lotte1, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-lotte1,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=otc-storefront,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=otc-storefront,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, otc-storefront, apps, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=otc-storefront,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 668415085
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=peter,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Peter, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Peter,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=peter display,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Peter Display, devices, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 2094062027
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=peter-1780,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, Peter-1780, clients, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=Peter-1780,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -145134384
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=peters,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, peters, hwtypes, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1074574043
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=schema_version,nismapname=profile,cn=petertreiber,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=schema_version,1.3.6.1.1.1.1.26=profile,2.5.4.3=petertreiber,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# schema_version, profile, petertreiber, hwtypes, openthinclient, openthinclient.org
+dn: cn=schema_version,nismapname=profile,cn=petertreiber,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: -1074574043
+cn: schema_version
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=sda3-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=sda3-home,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# sda3-home, devices, openthinclient, openthinclient.org
+dn: cn=sda3-home,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: sda3-home
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.connect,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.connect,1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1790-fglrx-dual-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.connect, profile, Display-1790-fglrx-dual-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.connect,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: DFP2
+cn: secondscreen.connect
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.connect,nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.connect,1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-1658,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.connect, profile, dual-1658, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.connect,nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: VGA1
+cn: secondscreen.connect
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.connect,nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.connect,1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-fglrx-1790-1780-1280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.connect, profile, Dual-fglrx-1790-1780-1280, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.connect,nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: DFP2
+cn: secondscreen.connect
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.connect,nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.connect,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1790,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.connect, profile, Dualscreen-1790, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.connect,nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: DVI-0
+cn: secondscreen.connect
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.connect,nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.connect,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen1280er,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.connect, profile, dualScreen1280er, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.connect,nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: DVI-1
+cn: secondscreen.connect
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.connect,nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.connect,1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-nvs280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.connect, profile, nvidia-NVS280, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.connect,nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: DVI-I-2
+cn: secondscreen.connect
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.connect,nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.connect,1.3.6.1.1.1.1.26=profile,2.5.4.3=peter display,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.connect, profile, Peter Display, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.connect,nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: DFP2
+cn: secondscreen.connect
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.cust_connector,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.cust_connector,1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1790-fglrx-dual-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.cust_connector, profile, Display-1790-fglrx-dual-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.cust_connector,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: DFP2
+cn: secondscreen.cust_connector
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.positioning,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.positioning,1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1790-fglrx-dual-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.positioning, profile, Display-1790-fglrx-dual-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.positioning,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: --left-of
+cn: secondscreen.positioning
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.positioning,nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.positioning,1.3.6.1.1.1.1.26=profile,2.5.4.3=peter display,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.positioning, profile, Peter Display, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.positioning,nismapname=profile,cn=Peter Display,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: --left-of
+cn: secondscreen.positioning
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=display-1790-fglrx-dual-1280x1024,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, Display-1790-fglrx-dual-1280x1024, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=Display-1790-fglrx-dual-1280x1024,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1280x1024
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=displayset1fujutsu-s700,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, Displayset1Fujutsu-S700, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1280x1024
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-1658,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, dual-1658, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=dual-1658,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1920x1080
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=dual-fglrx-1790-1780-1280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, Dual-fglrx-1790-1780-1280, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=Dual-fglrx-1790-1780-1280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1280x1024
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1050,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, DualScreen-1050, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=DualScreen-1050,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1280x1024
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen-1790,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, Dualscreen-1790, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=Dualscreen-1790,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1280x1024
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=dualscreen1280er,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, dualScreen1280er, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=dualScreen1280er,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1280x1024
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.resolution,nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.resolution,1.3.6.1.1.1.1.26=profile,2.5.4.3=nvidia-nvs280,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.resolution, profile, nvidia-NVS280, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.resolution,nismapname=profile,cn=nvidia-NVS280,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: 1280x1024
+cn: secondscreen.resolution
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=secondscreen.rotation,nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=secondscreen.rotation,1.3.6.1.1.1.1.26=profile,2.5.4.3=displayset1fujutsu-s700,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# secondscreen.rotation, profile, Displayset1Fujutsu-S700, devices, openthinclient, openthinclient.org
+dn: cn=secondscreen.rotation,nismapname=profile,cn=Displayset1Fujutsu-S700,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: inverted
+cn: secondscreen.rotation
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=shutdown,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# shutdown, apps, openthinclient, openthinclient.org
+dn: cn=shutdown,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: shutdown
+
+# Error: Already exists (68), additional info: failed to add entry cn=Smartcard: Cherry ST-2052u,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=smartcard: cherry st-2052u,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Smartcard: Cherry ST-2052u, devices, openthinclient, openthinclient.org
+dn: cn=Smartcard: Cherry ST-2052u,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Smartcard: Cherry ST-2052u
+
+# Error: Already exists (68), additional info: failed to add entry cn=Smartcard: eGK,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=smartcard: egk,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Smartcard: eGK, devices, openthinclient, openthinclient.org
+dn: cn=Smartcard: eGK,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-borna,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: cn=vm-trick-03_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+cn: Smartcard: eGK
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=steffen-t430s,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=steffen-t430s,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# steffen-t430s, clients, openthinclient, openthinclient.org
+dn: cn=steffen-t430s,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.185
+cn: steffen-t430s
+macaddress: 3c:97:0e:04:bd:f0
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=terra-ion,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=terra-ion,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# terra-ion, clients, openthinclient, openthinclient.org
+dn: cn=terra-ion,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.90
+cn: terra-ion
+macaddress: 70:54:d2:8a:ea:3f
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=terra-reiff,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=terra-reiff,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# terra-reiff, clients, openthinclient, openthinclient.org
+dn: cn=terra-reiff,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.195
+cn: terra-reiff
+macaddress: 00:13:90:03:3f:cc
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=unrecognized-clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=unrecognized-clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# unrecognized-clients, openthinclient, openthinclient.org
+dn: ou=unrecognized-clients,ou=openthinclient,dc=openthinclient,dc=org
+ou: unrecognized-clients
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Usbrdr,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=usbrdr,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Usbrdr, devices, openthinclient, openthinclient.org
+dn: cn=Usbrdr,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Usbrdr
+
+# Error: Already exists (68), additional info: failed to add entry ou=usergroups,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=usergroups,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# usergroups, openthinclient, openthinclient.org
+dn: ou=usergroups,ou=openthinclient,dc=openthinclient,dc=org
+ou: usergroups
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry ou=users,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.11=users,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# users, openthinclient, openthinclient.org
+dn: ou=users,ou=openthinclient,dc=openthinclient,dc=org
+ou: users
+objectClass: organizationalUnit
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=VerbosityOptions.Verbosity,nismapname=profile,cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=verbosityoptions.verbosity,1.3.6.1.1.1.1.26=profile,2.5.4.3=joerns,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# VerbosityOptions.Verbosity, profile, joerns, hwtypes, openthinclient, openthinclient.org
+dn: cn=VerbosityOptions.Verbosity,nismapname=profile,cn=joerns,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry:: IA==
+cn: VerbosityOptions.Verbosity
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=VerbosityOptions.Verbosity,nismapname=profile,cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=verbosityoptions.verbosity,1.3.6.1.1.1.1.26=profile,2.5.4.3=joerns-none-pae,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# VerbosityOptions.Verbosity, profile, joerns-none-PAE, hwtypes, openthinclient, openthinclient.org
+dn: cn=VerbosityOptions.Verbosity,nismapname=profile,cn=joerns-none-PAE,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry:: IA==
+cn: VerbosityOptions.Verbosity
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=VerbosityOptions.Verbosity,nismapname=profile,cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=verbosityoptions.verbosity,1.3.6.1.1.1.1.26=profile,2.5.4.3=peters,2.5.4.11=hwtypes,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# VerbosityOptions.Verbosity, profile, peters, hwtypes, openthinclient, openthinclient.org
+dn: cn=VerbosityOptions.Verbosity,nismapname=profile,cn=peters,ou=hwtypes,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry:: IA==
+cn: VerbosityOptions.Verbosity
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=virtuellerjoern-eth0,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# virtuellerJoern-eth0, clients, openthinclient, openthinclient.org
+dn: cn=virtuellerJoern-eth0,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 0.0.0.0
+cn: virtuellerJoern-eth0
+macaddress: 08:00:27:b8:75:3c
+description: ignore_dhcp=true
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=vm-borna,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=vm-borna,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# vm-borna, clients, openthinclient, openthinclient.org
+dn: cn=vm-borna,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.87
+cn: vm-borna
+macaddress: 08:00:27:5d:e4:23
+l: l=English,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=vm-borna-wifi,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=vm-borna-wifi,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# vm-borna-wifi, clients, openthinclient, openthinclient.org
+dn: cn=vm-borna-wifi,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.188
+cn: vm-borna-wifi
+macaddress: 08:00:27:d6:a1:53
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=vm-tick-02_disabled,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# vm-tick-02_disabled, clients, openthinclient, openthinclient.org
+dn: cn=vm-tick-02_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.15
+cn: vm-tick-02_disabled
+macaddress: 08:00:27:01:e4:65
+description: 08:00:27:01:65:e4
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=vm-trick-03_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=vm-trick-03_disabled,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# vm-trick-03_disabled, clients, openthinclient, openthinclient.org
+dn: cn=vm-trick-03_disabled,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.240
+cn: vm-trick-03_disabled
+description: 08:00:27:94:36:98
+macaddress: 08:00:27:94:98:36
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=vm01lars,ou=clients,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=vm01lars,2.5.4.11=clients,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# vm01lars, clients, openthinclient, openthinclient.org
+dn: cn=vm01lars,ou=clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.44
+cn: vm01lars
+description: disabled
+macaddress: 08:00:27:10:59:19
+l: l=German,ou=locations,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=VNC,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=vnc,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# VNC, apps, openthinclient, openthinclient.org
+dn: cn=VNC,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: VNC
+
+# Error: Already exists (68), additional info: failed to add entry cn=VNC-Server ohne Passwort,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=vnc-server ohne passwort,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# VNC-Server ohne Passwort, apps, openthinclient, openthinclient.org
+dn: cn=VNC-Server ohne Passwort,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+uniquemember: DC=dummy
+cn: VNC-Server ohne Passwort
+objectClass: groupOfUniqueNames
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Window.Depth,nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=window.depth,1.3.6.1.1.1.1.26=profile,2.5.4.3=citrix-6.5er-bla-desktop-joern,2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Window.Depth, profile, Citrix-6.5er-bla-Desktop-Joern, apps, openthinclient, openthinclient.org
+dn: cn=Window.Depth,nismapname=profile,cn=Citrix-6.5er-bla-Desktop-Joern,ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: auto
+cn: Window.Depth
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=Window.WindowType,nismapname=profile,cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=window.windowtype,1.3.6.1.1.1.1.26=profile,2.5.4.3=ica12: bla@otc-tserver (shoenig),2.5.4.11=apps,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# Window.WindowType, profile, ica12: bla@otc-tserver (shoenig), apps, openthinclient, openthinclient.org
+dn: cn=Window.WindowType,nismapname=profile,cn=ica12: bla@otc-tserver (shoenig),ou=apps,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: fullscreen_both
+cn: Window.WindowType
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=xkblayout,nismapname=profile,cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=xkblayout,1.3.6.1.1.1.1.26=profile,2.5.4.3=keyboard: cz,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# xkblayout, profile, Keyboard: cz, devices, openthinclient, openthinclient.org
+dn: cn=xkblayout,nismapname=profile,cn=Keyboard: cz,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: cz
+cn: xkblayout
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=xkblayout,nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=xkblayout,1.3.6.1.1.1.1.26=profile,2.5.4.3=keyboard: de,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# xkblayout, profile, Keyboard: de, devices, openthinclient, openthinclient.org
+dn: cn=xkblayout,nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: de
+cn: xkblayout
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+
+# Error: Already exists (68), additional info: failed to add entry cn=xkbmodel,nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org: 2.5.4.3=xkbmodel,1.3.6.1.1.1.1.26=profile,2.5.4.3=keyboard: de,2.5.4.11=devices,2.5.4.11=openthinclient,0.9.2342.19200300.100.1.25=openthinclient,0.9.2342.19200300.100.1.25=org already exists!
+# xkbmodel, profile, Keyboard: de, devices, openthinclient, openthinclient.org
+dn: cn=xkbmodel,nismapname=profile,cn=Keyboard: de,ou=devices,ou=openthinclient,dc=openthinclient,dc=org
+nismapentry: pc105
+cn: xkbmodel
+nismapname: profile
+objectClass: nisObject
+objectClass: top
+

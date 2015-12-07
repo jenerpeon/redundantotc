@@ -1,0 +1,12 @@
+# Error: No such object (32), matched DN: ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry cn=10.224.129.13,ou=unrecognized-clients,ou=openthinclient,dc=openthinclient,dc=org: Parent ou=unrecognized-clients,ou=openthinclient,dc=openthinclient,dc=org not found
+# 10.224.129.13, unrecognized-clients, openthinclient, openthinclient.org
+dn: cn=10.224.129.13,ou=unrecognized-clients,ou=openthinclient,dc=openthinclient,dc=org
+iphostnumber: 10.224.129.13
+cn: 10.224.129.13
+macaddress: 00:27:13:b2:1d:01
+description: PXEClient:Arch:00000:UNDI:002001 first seen: Wed Oct 21 18:41:59 CEST 2015
+objectClass: device
+objectClass: ipHost
+objectClass: ieee802Device
+objectClass: top
+

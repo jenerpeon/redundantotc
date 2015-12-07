@@ -1,0 +1,8 @@
+# Error: Undefined attribute type (17), additional info: failed to add entry ou=users,ou=openthinclient,dc=openthinclient,dc=org: ufn not found in attribute registry!
+# users, openthinclient, openthinclient.org
+dn: ou=users,ou=openthinclient,dc=openthinclient,dc=org
+ufn: users, openthinclient, openthinclient.org
+ou: users
+objectClass: organizationalUnit
+objectClass: top
+

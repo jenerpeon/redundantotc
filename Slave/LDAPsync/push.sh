@@ -2,7 +2,7 @@
 # Slave
 # Variable definitions
 SLAVE=os-slave
-MASTER=os-master
+MASTER=otc-dd-dev2
 
 DIR="/opt/Slave/LDAPsync"
 MASTER_DIR="/opt/Master/LDAPsync"
@@ -102,8 +102,30 @@ delete () {
 push () {
     eval "TODAYS_ARCHIVE=$(tail -n1 ${TRANSACTIONS})" 
     check -e "${TODAYS_ARCHIVE}.ldif" "push" "lookup ldif"
-    ldapadd -f ${TODAYS_ARCHIVE}.ldif -S ${DIR}/logs/$(date +%F_%R).log -x -h localhost -p 10389 -D uid=admin,ou=system -w0pen%TC >/dev/null
-    check -f $? "push" "ldapadd"
+    for i in `seq 1 5`; do
+        ldapadd -f ${TODAYS_ARCHIVE}.ldif -S ${DIR}/logs/$(date +%F_%R).log -x -h localhost -c -p 10389 -D uid=admin,ou=system -w0pen%TC 2>/dev/null >/dev/null
+    done
+    #check -f $? "push" "ldapadd"
+}
+
+ldif_check () {
+    ldapsearch \
+      -p 10389 \
+      -h localhost \
+      -b ou=openthinclient,dc=openthinclient,dc=org \
+      -D uid=admin,ou=system \
+      -w0pen%TC \
+      -o ldif-wrap=200 '(!(&(ou=openthinclient)(description=openthinclient.org Console)))' | tee ${TODAYS_DATA}.ldif2 >/dev/null
+
+    eval "SLAVE_SUM=$(md5sum ${TODAYS_ARCHIVE}.ldif | awk '{print $1}')"
+    eval "MASTER_SUM=$(md5sum ${TODAYS_ARCHIVE}.ldif | awk '{print $1}')"
+
+    # unexpected difference between master and slave dump. Aborting...
+    [[ ! -z $(diff <(echo ${MASTER_SUM}) <(echo ${SLAVE_SUM})) ]] && myLogger "1" "md5sum" "comparison"
+    myLogger "4" "md5check" "comparison"
+
+  check -f $? "ldap_retrieve" "ldapsearch"
+
 }
 
 otc_stop () {
@@ -174,8 +196,9 @@ case $key in
         unpack
         md5check
         otc_start
-        delete
+        #delete
         push
+        ldif_check
         clean
         otc_stop
         unlock

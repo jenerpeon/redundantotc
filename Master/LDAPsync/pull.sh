@@ -1,7 +1,7 @@
 #!/bin/bash
 # Master
 # Variable definitions
-MASTER=os-master
+MASTER=otc-dd-dev2
 SLAVE=os-slave
 
 MASTER_USER="root"
@@ -105,6 +105,7 @@ test_con () {
 }
 
 init() {
+  myLogger "3" "current_date" "$(date +%F)"
   check --enc ${LOCK} "init" "lookup LOCK" "rm ${LOCK}"
 }
 
@@ -112,11 +113,10 @@ ldap_retrieve () {
   ldapsearch \
       -p 10389 \
       -h localhost \
-      -x \
       -b ou=openthinclient,dc=openthinclient,dc=org \
       -D uid=admin,ou=system \
       -w0pen%TC \
-      -o ldif-wrap=200 '(&(objectClass=organizationalUnit)(!(description=openthinclient.org Console)))' | tee ${TODAYS_DATA}.ldif #>/dev/null
+      -o ldif-wrap=200 '(!(&(ou=openthinclient)(description=openthinclient.org Console)))' | tee ${TODAYS_DATA}.ldif >/dev/null
 
   check -f $? "ldap_retrieve" "ldapsearch"
 }
@@ -163,7 +163,7 @@ ldap_push () {
 } 
 
 clean() {
-   rm ${MASTER_DIR}/backup/*{.ldif,.md5}
+   rm ${MASTER_DIR}/backup/${TODAYS_DATE}{.ldif,.md5}
 }
 
 case $key in 

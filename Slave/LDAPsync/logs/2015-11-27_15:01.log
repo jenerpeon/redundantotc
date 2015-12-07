@@ -1,0 +1,8 @@
+# Error: No such object (32), matched DN: ou=openthinclient,dc=openthinclient,dc=org, additional info: failed to add entry nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org: Parent ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org not found
+# profile, RealmConfiguration, openthinclient, openthinclient.org
+dn: nismapname=profile,ou=RealmConfiguration,ou=openthinclient,dc=openthinclient,dc=org
+objectClass: nisMap
+objectClass: top
+description: unknown
+nismapname: profile
+
